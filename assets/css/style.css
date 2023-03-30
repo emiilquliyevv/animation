@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loader{
+    background-color: rgb(255, 136, 0);
+    height: 100vh;
+    padding-top: 300px;
+}
+.las{
+ font-size: 50px;
+ color: bisque;
+ animation: paw 1.5s infinite;
+ position: relative;
+ animation-duration: 5s;   
+}
+@keyframes paw{
+    0%{
+        transform: rotate(0deg);
+        left: 0px;
+    }
+    25%{
+        transform: rotate(0deg);
+        left: 0px;
+    }
+    50%{
+        transform: rotate(0deg);
+        left: 500px;
+    }
+    75%{
+        transform: rotate(0deg);
+        left: 500px;
+    }
+    100%{
+        transform: rotate(-360deg);
+        left: 0px;
+    }
+
+}
+
+
